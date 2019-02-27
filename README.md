@@ -1,13 +1,6 @@
 # monitor-data-in-AIOpenScale
 Notebook to monitor synthetic data for AI OpenScale with German Credit data
 
-
-## Included Components
-
-* **IBM Watson Studio:** Analyze data using RStudio, Jupyter and Machine Learning Flow in a configured, collaborative environment that includes IBM value-adds, such as managed Spark.
-
-* **IBM Cloud Object Storage:** An IBM Cloud service that provides an unstructured cloud data store to build and deliver cost effective apps and services with high reliability and fast speed to market. This code pattern uses Cloud Object Storage.
-
 ## Pre-requisites
 
 * **IBM Cloud account:**  An account must exist to use the platform.
