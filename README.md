@@ -11,11 +11,25 @@ Notebook to monitor synthetic data for AI OpenScale with German Credit data
 ## Pre-requisites
 
 * **IBM Cloud account:**  An account must exist to use the platform.
-* **Watson Studio service instance:** A service instance must exist to be able to upload jupyter notebook
+* **Watson Studio service instance:** A service instance must exist to be able to upload jupyter notebook.
+* **Watson Machine Learning:** IBM Watson Machine Learning (WML) Service enables you to create, train, and deploy self-learning models using an automated, collaborative workflow.
+* **IBM Watson Open Scale:** Watson OpenScale provides your business with visibility, control and the ability to improve AI deployments, helps explain AI outcomes, and scales AI usage with automated neural network design and deployment.
 
 ## Steps
 ### Create an IBM cloud account
 If you do not have an IBM Cloud account, create an account [here](ibm.biz/ai-openscale-cloud)
+
+> Note : PLEASE MAKE ALL SERVICES UNDER ONE LOCATION. FOR EXAMPLE: Dallas
+
+### Create Object Storage Service
+1. Select Catalog found at the top right of the page.
+2. Click on Storage from the menu on the left.
+4. Choose **Object Storage** instance
+
+### Create Watson Machine Learning Service
+1. Select Catalog found at the top right of the page.
+2. Click on Watson from the menu on the left.
+4. Choose **Machine Learning** instance
 
 ### Create a Watson Studio service instance
 If you don't have a **watson Studio** instance, do the following:
@@ -40,3 +54,8 @@ Then Choose a **Standard plan**
 * Make sure a cloud storage instance exists, or add a new **IBM Cloud Object Storage** instance by clicking on Add under Select storage service.
 
 ![](https://user-images.githubusercontent.com/20974667/48709557-da421680-ec16-11e8-8c07-c90b29db12e2.png)
+
+5. **Add Jupyter Notebook asset**
+6. Upload file, then attach this file into it.
+7. Make the Enviroment Spark Python 3.5 XS
+![]()
