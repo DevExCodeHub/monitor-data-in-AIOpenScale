@@ -58,4 +58,6 @@ Then Choose a **Standard plan**
 5. **Add Jupyter Notebook asset**
 6. Upload file, then attach this file into it.
 7. Make the Enviroment Spark Python 3.5 XS
-![]()
+![]((https://user-images.githubusercontent.com/37486654/53483449-9753d280-3a92-11e9-8270-376b55d1ae4f.png)
+
+The notebooke is done by Eric Martens @emartensibm and can be found [here](https://github.com/emartensibm/german-credit)
