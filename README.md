@@ -12,7 +12,7 @@ Notebook to monitor synthetic data for AI OpenScale with German Credit data
 ### Create an IBM cloud account
 If you do not have an IBM Cloud account, create an account [here](ibm.biz/ai-openscale-cloud)
 
-> Note : PLEASE MAKE ALL SERVICES UNDER ONE LOCATION. FOR EXAMPLE: Dallas
+> Note : PLEASE MAKE ALL SERVICES UNDER ONE LOCATION: Dallas
 
 ### Create Object Storage Service
 1. Select Catalog found at the top right of the page.
@@ -49,7 +49,7 @@ Then Choose a **Standard plan**
 ![](https://user-images.githubusercontent.com/20974667/48709557-da421680-ec16-11e8-8c07-c90b29db12e2.png)
 
 5. **Add Jupyter Notebook asset**
-6. Upload file, then attach this file into it.
+6. Upload file, then attach this [Notebook](https://github.com/DevExCodeHub/monitor-data-in-aios/blob/master/aios_lab.ipynb) into it.
 7. Make the Enviroment Spark Python 3.5 XS
 ![](https://user-images.githubusercontent.com/37486654/53483449-9753d280-3a92-11e9-8270-376b55d1ae4f.png)
 
